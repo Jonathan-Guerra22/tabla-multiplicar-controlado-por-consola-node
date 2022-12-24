@@ -18,7 +18,7 @@ const crearArchivo = async(value = 5, listar, hasta) => {
             console.log(salida);
         }
 
-        fs.writeFileSync(`./archivos/${nombreArchivo}`, salida);
+        fs.writeFileSync(`./files/${nombreArchivo}`, salida);
 
         return nombreArchivo
         
