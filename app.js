@@ -17,5 +17,5 @@ const listar = argv.listar
 const hasta = argv.hasta
 
 crearArchivo(base, listar, hasta)
-    .then(msg => console.log(msg))
+    .then(msg => console.log('Se creo el archivo: ' + msg))
     .catch(err => console.log(err))
